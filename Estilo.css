@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+}
+
+.container{
+    width: 100%;
+    background-color: #500c63;
+}
+
+header{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav ul{
+    background-color:#018310;
+    height: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    font-family: "Times New Roman", " Times", " serif";
+    padding: 50px;
+    font-size: 40px;
+    list-style-type: none;
+    text-decoration: none;
+    color:  white;
+}
+
+a:hover{
+    font-family: "Times New Roman", " Times", " serif";
+    color: aliceblue;
+    padding: 25px;
+    font-size: 40px;
+    background-color:#cc4436;
+    border-radius: 50px;
+    box-shadow: 1px 1px #cc4436;
+}
+
+h1{
+    color: rgb(32, 1, 38);
+    text-align: left;
+    font-family: font_face2;
+    font-size: 50px;
+}
+
+section{
+    height: 600px;
+    width: 100%;
+    background-color: #500c63;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card{
+    width: 20%;
+    height: 400px;
+    border: 1px solid white;
+}
+
+.img-card{
+    height: 320px;
+}
+
+.texto-card{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    font-family: font_pizza;
+    font-size: 25px;
+    text-align: center;
+}
+
+.titulo-card{
+    font-family: "Times New Roman", " Times", " serif";
+    font-size: 20px;
+    text-align: center;
+}
+
+p{
+    font-family:"Times New Roman", " Times", " serif";
+    font-size: 20px;
+    text-align: center;
+}
+
+
+h3{
+    font-family: "Times New Roman", " Times", " serif";
+    color: red;
+}
+
+#cardapio{
+    width: 300px;
+
+}
